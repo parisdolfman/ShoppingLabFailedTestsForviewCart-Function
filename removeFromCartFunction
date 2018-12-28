@@ -1,0 +1,8 @@
+function removeFromCart(item) {
+  for (var counter = 0; counter < getCart().length; counter++) {
+    if (cart[counter] === item) {
+        cart.remove.indexOf(item)
+    }
+  }
+
+}
